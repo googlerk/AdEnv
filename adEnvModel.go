@@ -1,4 +1,4 @@
-package adenv
+package pkgAdEnv
 
 const constPathEnv = "../.env"
 
