@@ -1,4 +1,4 @@
-package github.com/googlerk/pkgAdEnv
+package adenv
 
 const constPathEnv = "../.env"
 
