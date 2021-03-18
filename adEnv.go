@@ -3,8 +3,6 @@ package adenv
 import (
 	"encoding/json"
 	"errors"
-	"fmt"
-	"log"
 	"os"
 	"strings"
 
@@ -16,16 +14,13 @@ func GetAdEnv(path string) (stt *AdEnv, err error) {
 	var res map[string]string
 	res, err = godotenv.Read(strPath)
 	if err != nil {
-		log.Printf("\n godotenv %#v \n", err)
 		return
 	}
 	jsonbody, err := json.Marshal(res)
 	if err != nil {
-		log.Printf("\n jsonbody %#v \n", err)
 		return
 	}
 	if err = json.Unmarshal(jsonbody, &stt); err != nil {
-		log.Printf("\n Unmarshal %#v \n", err)
 		return
 	}
 
