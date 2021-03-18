@@ -1,4 +1,4 @@
-package adenv
+package pkgAdEnv
 
 import (
 	"encoding/json"
