@@ -1,2 +1,1 @@
-# pkgAdEnv
-learnGo
+# adsync
