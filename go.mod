@@ -1,4 +1,4 @@
-module github.com/googlerk/pkgAdEnv
+module github.com/googlerk/adenv
 
 go 1.14
 
