@@ -1,4 +1,4 @@
-package github.com/googlerk/pkgAdEnv
+package adenv
 
 import (
 	"encoding/json"
