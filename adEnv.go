@@ -31,7 +31,7 @@ func GetAdEnv(path string) (stt *AdEnv, err error) {
 
 	hostname, err := os.Hostname()
 	constEnv := chkHostName(hostname)
-	fmt.Printf("\n\n constEnv = %s \n\n", constEnv)
+	//fmt.Printf("\n\n constEnv = %s \n\n", constEnv)
 	if constEnv == "" {
 		return stt, errors.New("HostName : " + hostname + " not exist.")
 	}
