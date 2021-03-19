@@ -1,6 +1,6 @@
 package adenv
 
-const constPathEnv = "../.env"
+const constPathEnv = "./.env"
 
 type AdEnv struct {
 	ConstEnv   string `json:"ConstEnv"`
